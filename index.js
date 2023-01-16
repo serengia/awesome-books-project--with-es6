@@ -49,18 +49,6 @@ const createBook = new Books();
 
 createBook.addBook();
 createBook.removeBookHandler();
-// setInterval(() => {
-//   const date = new Date();
-//   const formattedDate = date.toLocaleString("en-US", {
-//     month: "long",
-//     day: "numeric",
-//     year: "numeric",
-//   });
-
-//   const time = date.toLocaleTimeString();
-//   const dateTime = `${formattedDate}, ${time}`;
-//   dateElement.innerHTML = dateTime;
-// }, 1000);
 
 // Displaying time with luxon package
 const dateTime = () => {
