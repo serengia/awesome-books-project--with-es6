@@ -1,0 +1,140 @@
+*,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+main {
+  padding-bottom: 40px;
+}
+
+footer,
+nav {
+  width: 95%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid gray;
+}
+
+.navItems {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.date {
+  text-align: right;
+  padding: 0 30px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* .header-container, */
+.book-list,
+.add-book-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-container {
+  height: 90px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.book-list {
+  border: 2px solid rgb(215, 215, 215);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.no-books-container {
+  padding: 20px;
+}
+
+.no-books-container p {
+  margin-top: 4px;
+  font-size: 18px;
+}
+
+.remove-book-btn {
+  padding: 4px;
+}
+
+.input-wrapper {
+  margin: 30px 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 4px;
+}
+
+.form button {
+  padding: 4px;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.add-book-form {
+  padding-top: 20px;
+}
+
+.add-button-container {
+  text-align: right;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.book:nth-child(odd) {
+  background-color: rgb(230, 225, 225);
+}
+
+#section-contact {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactInfo {
+  padding: 20px 0 50px 50px;
+}
+
+footer {
+  margin-top: auto;
+}
